@@ -16,6 +16,7 @@
     }
     @media screen and (min-width: 1024px) {
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
     }
     @media screen and (min-width: 1440px) {
       grid-template-rows: 250px;
@@ -65,6 +66,9 @@
     display: flex;
     align-items: baseline;
     gap: 12px;
+        &:hover,:focus{
+      font-size: 20px;
+    }
   }
 
   &__menu-title {
@@ -84,6 +88,9 @@
 
   &__menu-link {
     color: var(--color-white);
+    &:hover,:focus{
+      font-size: 20px;
+    }
   }
 
   &__subscribe-container {

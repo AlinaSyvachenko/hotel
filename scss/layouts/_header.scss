@@ -69,13 +69,22 @@
 
   &__menu-link {
     padding: 10px;
+    color: var(--color-white);  
+    cursor: pointer;
+    &:hover,:focus {
+      font-size: 28px;
+    }
   }
 
   &__button {
     color: var(--color-white);  
     width: 136px;
     background-color: transparent;
-
+    padding-top: 8px;
+    &:hover {
+      background-color: var(--color-brand-green);
+      color: var(--color-brand-blue);
+    }
       @media screen and (min-width: 768px) {
       width: 170px;
     }
