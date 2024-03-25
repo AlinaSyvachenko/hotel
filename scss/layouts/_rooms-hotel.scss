@@ -1,0 +1,81 @@
+.rooms-hotel {
+
+  &__container {
+    background-color: var(--color-brand-blue-light);
+    width: 100%;
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__container-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+          padding-top: 80px;
+
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      gap: 0;
+      justify-content: space-between;
+    }
+  }
+
+  &__describe {
+    max-width: 346px;
+  }
+}
+
+.owl-carousel-rooms {
+
+  &--brand {
+        background-color: var(--color-brand-blue);
+    }
+
+  &__background-img {
+    border-radius: 32px;
+    height: 272px;
+  }
+  &__price {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    background-color: var(--color-white);
+    padding: 16px 24px;
+    border-radius: 15px;
+  }
+
+
+  &__title {
+    margin-top: 36px;
+    margin-bottom: 0;
+    font-size: 36px;
+    &--brand {
+        color: var(--color-white)
+    }
+  }
+
+  &__describe {
+    margin-top: 15px;
+    &--brand {
+        color: var(--color-white-transparent)
+    }
+  }
+
+  
+  &__button {
+    @include button(
+      162px,
+      var(--color-white),
+      var(--color-brand-blue),
+      1px solid var(--color-brand-blue)
+    );
+    padding-top: 8px;
+    margin-top: 20px;
+    &--brand {
+        background-color: var(--color-brand-green);
+        color: var(--color-grey);
+    }
+  }
+}

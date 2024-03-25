@@ -1,0 +1,27 @@
+@import './utils/normalize';
+@import './utils/fonts';
+@import './utils/variables';
+@import './base';
+@import './utils/utils';
+@import './utils/texts';
+@import './utils/mixins';
+
+@import './components/logo';
+@import './components/buttons';
+@import './components/cards';
+
+@import './utils/container';
+@import './layouts/header';
+@import './layouts/hero-section';
+@import './layouts/about-hotel';
+@import './layouts/servises-hotel';
+@import './layouts/restaurants-hotel';
+@import './layouts/advantages-hotel';
+@import './components/owlCarousel';
+@import './layouts/_rooms-hotel.scss';
+@import './layouts/filling-hotel';
+@import './layouts/testimonials';
+@import './layouts/footer';
+// @import '';
+// @import '';
+// @import '';
